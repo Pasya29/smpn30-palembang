@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>SMP Negeri 30 Palembang</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f6f8;
+            color: #333;
+        }
+
+        header {
+            background-color: #1e3a8a;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 18px;
+            opacity: 0.9;
+        }
+
+        .container {
+            width: 85%;
+            max-width: 1100px;
+            margin: auto;
+            padding: 40px 0;
+        }
+
+        .section {
+            background-color: white;
+            padding: 35px;
+            margin-bottom: 30px;
+            border-radius: 12px;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.05);
+        }
+
+        .section h2 {
+            margin-top: 0;
+            color: #1e3a8a;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 10px;
+        }
+
+        .section p {
+            line-height: 1.8;
+            text-align: justify;
+        }
+
+        .visi-misi {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+
+        .box {
+            background-color: #f9fafb;
+            padding: 25px;
+            border-radius: 10px;
+        }
+
+        .box h3 {
+            margin-top: 0;
+            color: #2563eb;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #1e293b;
+            color: white;
+            text-align: center;
+            padding: 25px 15px;
+            font-size: 14px;
+        }
+
+        @media (max-width: 768px) {
+            .visi-misi {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>SMP Negeri 30 Palembang</h1>
+    <p>Mewujudkan Generasi Cerdas, Berkarakter, dan Berprestasi</p>
+</header>
+
+<div class="container">
+
+    <div class="section">
+        <h2>Selamat Datang</h2>
+        <p>
+            SMP Negeri 30 Palembang merupakan salah satu institusi pendidikan tingkat
+            menengah pertama yang berkomitmen dalam memberikan layanan pendidikan
+            berkualitas bagi peserta didik. Sekolah ini berperan aktif dalam membentuk
+            karakter siswa yang berakhlak mulia, berwawasan luas, serta mampu bersaing
+            di era global.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>Profil Sekolah</h2>
+        <p>
+            SMP Negeri 30 Palembang berdiri sebagai sekolah negeri yang mengedepankan
+            nilai kedisiplinan, integritas, serta semangat belajar yang tinggi. Dengan
+            dukungan tenaga pendidik yang profesional dan lingkungan belajar yang
+            kondusif, sekolah ini terus berupaya meningkatkan mutu pendidikan secara
+            berkelanjutan.
+        </p>
+        <p>
+            Kegiatan pembelajaran di SMP Negeri 30 Palembang dirancang untuk
+            menyeimbangkan antara aspek akademik dan pengembangan karakter siswa.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>Visi dan Misi</h2>
+        <div class="visi-misi">
+            <div class="box">
+                <h3>Visi</h3>
+                <p>
+                    Terwujudnya peserta didik yang beriman, berilmu, berakhlak mulia,
+                    berprestasi, dan peduli terhadap lingkungan.
+                </p>
+            </div>
+            <div class="box">
+                <h3>Misi</h3>
+                <ul>
+                    <li>Menyelenggarakan pendidikan yang berkualitas dan berkarakter.</li>
+                    <li>Menanamkan nilai kejujuran, disiplin, dan tanggung jawab.</li>
+                    <li>Mendorong prestasi akademik dan non-akademik siswa.</li>
+                    <li>Menciptakan lingkungan sekolah yang aman dan nyaman.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Informasi Umum</h2>
+        <p>
+            SMP Negeri 30 Palembang berlokasi di Kota Palembang dan melayani pendidikan
+            tingkat Sekolah Menengah Pertama. Sekolah ini menjalankan kurikulum nasional
+            serta berbagai kegiatan pendukung untuk menunjang potensi dan minat siswa.
+        </p>
+    </div>
+
+</div>
+
+<footer>
+    <p>
+        Website Profil SMP Negeri 30 Palembang<br>
+        Dibuat untuk keperluan UAS Mata Kuliah Pemrograman
+    </p>
+</footer>
+
+</body>
+</html>
